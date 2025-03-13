@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     });
 
-    diminuiFonteBotao.
+    diminuiFonteBotao.addEventListener('clik',function() {
+        tamanhoAtualFonte -=0.1;
+        document.body.style.fontSize = `${tamanhoAtualFonte}rem`; 
+    })
 
 });
