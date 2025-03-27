@@ -2,12 +2,12 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    const botaoDacessibilidad = document.getElementsByClassName('botao-acessibilidade');
-    const opcoesDacessibilidade = document.getElementsByClassName('apresenta-lista');
+    const botaoDeAcessibilidade = document.getElementsByClassName('botao-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementsByClassName('apresenta-lista');
 
     botaoDacessibilidad.addEventListener('clik' , function () {
-        botaoDacessibilidade.classlist.toggle('rotacao-botao');
-        opcoesDacessibilidade.classlist.togg('apresenta-lista');
+        botaoDeAcessibilidade.classlist.toggle('rotacao-botao');
+        opcoesDeAcessibilidade.classlist.togg('apresenta-lista');
     })
 
     // Acessa o botÃ£o com o ID 'aumentar-fonte' no HTML e o armazena em uma variÃ¡vel
