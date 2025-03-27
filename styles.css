@@ -143,7 +143,7 @@ h2 {
 
 .menu-acessibilidade{
     position:fixed;
-    top: 2rem
+    top: 2rem;
     right: 20px;
     z-index: 1000;
 }
@@ -160,7 +160,7 @@ h2 {
 }
 
 .opcoes-acessibilidade buttom {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .apresenta-lista {
