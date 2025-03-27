@@ -140,3 +140,29 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
+.menu-acessibilidade{
+    position:fixed;
+    top: 2rem
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botam {
+    transform: rotate(-90deg);
+    transform-origin: right cente;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: colum;
+}
+
+.opcoes-acessibilidade buttom {
+    margin-bottom: 50px;
+}
+
+.apresenta-lista {
+    display:none;
+}
